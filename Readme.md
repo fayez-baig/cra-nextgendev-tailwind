@@ -35,6 +35,7 @@ $ npx create-react-app my-app --template cra-template-nextgendev-tailwind
 
 - Stater template with sidebar
 - Light and Dark mode
+- React Query
 
 #### Best user experience can be enjoyed on:
 
