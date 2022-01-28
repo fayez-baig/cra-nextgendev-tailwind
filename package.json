@@ -1,6 +1,10 @@
 {
   "name": "cra-template-nextgendevtech-tailwind",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "author": {
+    "name": "Fayez",
+    "url": "https://github.com/fayez-baig"
+  },
   "keywords": [
     "react",
     "create-react-app",
@@ -23,5 +27,16 @@
   "files": [
     "template",
     "template.json"
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "contributors": [
+    "Fayez Baig <coderninja16@gmail.com> (https://github.com/fayez-baig)"
   ]
 }
