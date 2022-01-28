@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { SuspenseLoader } from 'app/domains/Common/components/loaders';
-import { lazy, Suspense, ReactNode, ComponentType, ComponentProps } from 'react';
+import { ReactElement, lazy, Suspense, ReactNode, ComponentType, ComponentProps } from 'react';
 
 interface Opts {
     fallback: ReactNode;
@@ -20,7 +20,7 @@ export const lazyLoad = <T extends Promise<any>, U extends ComponentType<any>>(
 
     const LazyComponent = lazy(lazyFactory);
 
-    return (props: ComponentProps<U>): JSX.Element => (
+    return (props: ComponentProps<U>): ReactElement => (
         <Suspense fallback={opts.fallback!}>
             <LazyComponent {...props} />
         </Suspense>
