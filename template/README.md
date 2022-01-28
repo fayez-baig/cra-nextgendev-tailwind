@@ -20,7 +20,7 @@
 > Please navigate to project folder folder and run below command to install `node_modules` in order to run this app locally.
 
 ```shell
-$  npx create-react-app my-app --template cra-template-nextgendev-tailwind
+$ npm install
 ```
 
 > Once node dependencies are installed then please open your terminal and run `npm start` for a development server.
@@ -35,7 +35,6 @@ $  npx create-react-app my-app --template cra-template-nextgendev-tailwind
 
 - Stater template with sidebar
 - Light and Dark mode
-- React Query
 
 #### Best user experience can be enjoyed on:
 

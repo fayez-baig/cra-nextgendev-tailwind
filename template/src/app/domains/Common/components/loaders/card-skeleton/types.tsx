@@ -1,3 +1,3 @@
 export interface CardSkeletonProps {
-  noOfCards?: number;
+    noOfCards?: number;
 }

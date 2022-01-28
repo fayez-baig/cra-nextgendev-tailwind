@@ -1,9 +1,9 @@
 const mainRoutes = [
-  {
-    icon: "HomeIcon",
-    name: "Home",
-    path: "/home",
-  },
+    {
+        icon: 'HomeIcon',
+        name: 'Home',
+        path: '/home',
+    },
 ];
 
 export { mainRoutes };

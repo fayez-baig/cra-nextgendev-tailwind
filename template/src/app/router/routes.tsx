@@ -1,10 +1,10 @@
-import { HomePage } from "app/pages/HomePage/async";
+import { HomePage } from 'app/pages/HomePage/async';
 
 const routes = [
-  {
-    component: HomePage,
-    path: "/home",
-  },
+    {
+        component: HomePage,
+        path: '/home',
+    },
 ];
 
 export default routes;
