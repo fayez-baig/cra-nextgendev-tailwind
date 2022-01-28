@@ -11,14 +11,14 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fayez-baig/tailwind-template-stater-typeScript"
+    "url": "https://github.com/fayez-baig/cra-nextgendev-tailwind"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/fayez-baig/tailwind-template-stater-typeScript/issues"
+    "url": "https://github.com/fayez-baig/cra-nextgendev-tailwind/issues"
   },
   "files": [
     "template",
