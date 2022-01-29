@@ -11,7 +11,7 @@ const CardSkeleton: FC<CardSkeletonProps> = ({ noOfCards }): any =>
             <div
                 // eslint-disable-next-line react/no-array-index-key
                 key={i}
-                className="p-4 mx-auto w-full h-28 rounded-md shadow-md dark:bg-dark-mode bg-light-mode"
+                className="w-full p-4 mx-auto rounded-md shadow-md h-28 dark:bg-dark-mode bg-light-mode"
             >
                 <SkeletonBody />
             </div>
