@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-const techStack = ['React v17', 'React Query v3', 'Tailwind v3', 'React Router v6'];
+const techStack = ['React v18', 'React Query v3', 'Tailwind v3', 'React Router v6'];
 const HomePage: FC = () => (
     <div className="text-xl text-light-mode-text dark:text-dark-mode-text ">
         <h1 className="mb-4 text-2xl text-word-spacing">
